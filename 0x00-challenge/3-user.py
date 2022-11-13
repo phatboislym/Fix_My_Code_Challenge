@@ -27,7 +27,7 @@ class User():
         """
         Password getter
         """
-        return self.__password
+        return (self.__password)
 
     @password.setter
     def password(self, pwd):
@@ -51,10 +51,10 @@ class User():
         - Compare `__password` and the MD5 value of `pwd`
         """
         if pwd is None or type(pwd) is not str:
-            return False
+            return (False)
         if self.__password is None:
-            return False
-        return hashlib.md5(pwd.encode()).hexdigest().upper() == self.__password
+            return (False)
+        return (hashlib.md5(pwd.encode()).hexdigest().lower() == self.__password)
 
 
 if __name__ == '__main__':
