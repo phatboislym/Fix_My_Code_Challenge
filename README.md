@@ -1,9 +1,3 @@
-# 0x00. Fix my code
+# Fix my code challenge
 
-* [0. FizzBuzz](0-fizzbuzz.py)
-
-* [1. Print square](./1-print_square.js)
-
-* [2. Sort](./2-sort.rb)
-
-* [4. Double linked list](./4-delete_dnodeint/)
+* [0x00-challenge](./0x00-challenge/)
